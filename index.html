@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>IWatch!</title>
+    <link rel="icon" href="./img/logo.png">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo">
+            </div>
+            <h1>ІWatch!</h1>
+            <nav>
+                <ul class="header-pages">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="search.html">Пошук</a></li>
+                    <li><a href="movies.html">Фільми</a></li>
+                    <li><a href="series.html">Серіали</a></li>
+                    <li><a href="fav.html">Улюблене</a></li>
+                    <li><a href="login.html">Увійти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Секція з головним фільмом -->
+
+        <section class="main-movie">
+            <img class="main-movie-bg" src="./img/bat-man.jpg" alt="Темний лицар">
+            <div class="main-movie-info">
+                <h2>Темний лицар</h2>
+                <div class="movie-details">
+                    <span>9.5</span>
+                    <span>120 хв</span>
+                    <span>HD</span>
+                    <span>16+</span>
+                </div>
+                <p>Бетмен бореться зі злочинним світом Готема, але поява геніального злочинця Джокера ставить під
+                    загрозу долю міста.</p>
+                <div class="movie-genres">
+                    <button>Екшн</button>
+                    <button>Кримінал</button>
+                    <button>Трилер</button>
+                </div>
+                <button id="watch-now" class="watch-now">Дивитися зараз</button>
+            </div>
+        </section>
+
+        <!-- Популярні фільми -->
+
+        <section class="popular-movies">
+            <h3>Популярні фільми</h3>
+            <div class="movies-grid">
+                <div class="movie-card">
+                    <img src="./img/shawshank.jpg" alt="Втеча з Шаушенка">
+                    <div class="movie-info">
+                        <h4>Темний лицар</h4>
+                        <span>120 хв</span>
+                        <span>HD</span>
+                        <span>16+</span>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="./img/Inception.jpg" alt="Початок">
+                    <div class="movie-info">
+                        <h4>Bloodshot</h4>
+                        <span>120 хв</span>
+                        <span>HD</span>
+                        <span>16+</span>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="./img/Intrestellar.jpg" alt="Інтерстеллар">
+                    <div class="movie-info">
+                        <h4>Captain Marvel</h4>
+                        <span>120 хв</span>
+                        <span>HD</span>
+                        <span>16+</span>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="./img/gladiator.jpg" alt="Гладіатор">
+                    <div class="movie-info">
+                        <h4>Avengers: Endgame</h4>
+                        <span>120 хв</span>
+                        <span>HD</span>
+                        <span>16+</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h3>Топ 10 найпопулярніших фільмів</h3>
+        <table class="popular-movies-table">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Фільм</th>
+                    <th>Рік</th>
+                    <th>Жанр</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Титанік</td>
+                    <td>1997</td>
+                    <td>Драма, Романтика</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Аватар</td>
+                    <td>2009</td>
+                    <td>Наукова фантастика, Пригода</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Зоряні війни: Епізод IV</td>
+                    <td>1977</td>
+                    <td>Наукова фантастика, Пригода</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Список Шиндлера</td>
+                    <td>1993</td>
+                    <td>Драма, Історичний</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Вічні</td>
+                    <td>2021</td>
+                    <td>Фантастика, Пригода</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Чорна пантерa</td>
+                    <td>2018</td>
+                    <td>Екшн, Пригода</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Форрест Гамп</td>
+                    <td>1994</td>
+                    <td>Драма, Комедія</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Гаррі Поттер і філософський камінь</td>
+                    <td>2001</td>
+                    <td>Фентезі, Пригода</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Супермен</td>
+                    <td>1978</td>
+                    <td>Екшн, Фантастика</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Пірати Карибського моря: Прокляття чорної перлини</td>
+                    <td>2003</td>
+                    <td>Пригода, Фентезі</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Приєднуйтесь до нас</h3>
+        <form action="#" method="post">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Пошта:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Приєднатись">
+        </form>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo">
+            </div>
+            <div class="footer-contacts">
+                <h4>Контакти</h4>
+                <ol style="color: white;">
+                    <li>Kyiv, Ukraine, Kyrylivska street, 110</li>
+                    <li>iwatch@gmail.com</li>
+                    <li>+38067923474</li>
+                </ol>
+                <h5><a href="description.html">Про нас</a></h5>
+
+            </div>
+            <div class="footer-socialmedia">
+                <a href="https://facebook.com" target="_blank"><img src="./img/Facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="./img/twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="./img/Instagram.webp" alt="Instagram"></a>
+                <a href="https://telegram.com" target="_blank"><img src="./img/telegram.png" alt="Telegram"></a>
+                <a href="https://viber.com" target="_blank"><img src="./img/viber.png" alt="Viber"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
